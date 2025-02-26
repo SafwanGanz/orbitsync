@@ -23,7 +23,7 @@ OrbitSync is a lightweight, powerful tool to keep your app’s state in perfect 
 ## 🚀 Installation
 
 ```bash
-npm install orbitsync
+npm install @safwanganz/orbitsync
 ```
 
 ---
@@ -31,7 +31,7 @@ npm install orbitsync
 ## 🛠️ Usage
 
 ```javascript
-const { OrbitSync } = require('orbitsync');
+const { OrbitSync } = require('@safwanganz/orbitsync');
 
 const orbit = new OrbitSync({
   storage: 'localStorage',
@@ -89,19 +89,6 @@ Open multiple tabs, tweak the state, and watch it sync instantly! 🌍
    ```bash
    npm link
    ```
-
----
-
-## 🤝 Contributing
-
-We’d love your help to make OrbitSync even better! 
-- Fork the repo.
-- Create a feature branch (`git checkout -b feature/awesome-thing`).
-- Commit your changes (`git commit -m "Add awesome thing"`).
-- Push it (`git push origin feature/awesome-thing`).
-- Open a Pull Request.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ---
 
