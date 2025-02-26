@@ -1,0 +1,23 @@
+{
+  "name": "orbitsync",
+  "version": "1.0.0",
+  "description": "Synchronize state across tabs, clients, and contexts with ease.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "broadcast-channel": "^5.3.0"
+  },
+  "keywords": ["state", "sync", "real-time", "persistence", "orbitsync"],
+  "author": "SafwanGanz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafwanGanz/orbitsync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SafwanGanz/orbitsync/issues"
+  },
+  "homepage": "https://github.com/SafwanGanz/orbitsync#readme"
+}
